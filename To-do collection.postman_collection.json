@@ -1,0 +1,48 @@
+{
+  "info": {
+    "_postman_id": "ced8ec11-b74d-4ec3-8922-db07a87b85c8",
+    "name": "To-do collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "46939593",
+    "_collection_link": "https://go.postman.co/collection/46939593-ced8ec11-b74d-4ec3-8922-db07a87b85c8?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "http://127.0.0.1:8000/tasks",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n\"title\": \"Testing FastAPI\",\r\n\"description\": \"Testing API on postman\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:8000/tasks",
+          "protocol": "http",
+          "host": [
+            "127",
+            "0",
+            "0",
+            "1"
+          ],
+          "port": "8000",
+          "path": [
+            "tasks"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
